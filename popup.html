@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Price Tracker</h1>
+        <div id="product-info">
+            <p id="product-name">Product Name: <span></span></p>
+            <p id="product-price">Price: <span></span></p>
+        </div>
+        <div class="button-container">
+            <button id="save-button">Save to Watchlist</button>
+            <button id="view-watchlist">View Watchlist</button>
+        </div>
+        <div id="watchlist" style="display: none;">
+            <h2>Your Watchlist</h2>
+            <div id="watchlist-items"></div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
